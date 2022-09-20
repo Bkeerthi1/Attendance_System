@@ -1,0 +1,11 @@
+/****** Script for SelectTopNRows command from SSMS  ******/
+SELECT TOP (1000) [STID]
+      ,[SName]
+      ,[Roll]
+      ,[Course]
+      ,[Year]
+      ,[Phone]
+      ,[Email]
+      ,[Sem]
+      ,[Password]
+  FROM [Attendance].[dbo].[Student]
